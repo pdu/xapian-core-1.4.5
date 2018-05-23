@@ -26,9 +26,7 @@ cc_library(
     ),
     includes = [
         "include",
-    ],
-    copts = [
-        "-isystem .",
-        "-isystem common",
+        "common",
+        "genfiles",
     ],
 )
